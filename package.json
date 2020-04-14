@@ -8,7 +8,7 @@
     "watch": "webpack -d --watch",
     "build": "webpack",
     "serve": "serve ./public",
-    "start": "nodemon"
+    "start": "node index.js"
   },
   "engine":{
     "node": "6.10.1"
@@ -19,7 +19,6 @@
     "babel-preset-react": "^6.11.1",
     "webpack": "^1.13.1",
     "serve": "^1.4.0",
-    "nodemon": "^1.18.9"
 
   },
   "dependencies": {
